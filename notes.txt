@@ -1,0 +1,67 @@
+
+arrow function 
+- short type of function 
+- it wont be bound by identier 
+- it wont retun any value 
+
+Promise - special JavaScript object, logic b/t server and client 
+
+let promise = new Promise (function(resolve, reject) ) {
+
+}
+
+new promiss - 
+
+status - pending 
+result - undefined 
+
+resolved (value) 
+    status - resolved 
+    result - value 
+
+rejecte (value) 
+    status - rejecte 
+    result - error  
+
+async - concurrent api call 
+await - background response 
+
+CORS - Which url we need a accss level. By default it's disabled. 
+
+
+MVC Design Pattern 
+
+1. Node App 
+npm init 
+npm install express 
+npm install cors 
+
+2. Create node web server 
+
+npm install mongoose - mongodb connect 
+
+express js - to create the REST API application 
+
+node serve .js --port 8080
+
+npm run server 
+
+brew services start mongodb-community@7.0
+
+DAY-3 
+Express JS 
+    Middle ware - next()
+    1. Authentication 
+    2. CORS 
+    3. use method 
+
+fs.readFile - asynchrones 
+fs.readFileSync - block 
+
+self-invoking function 
+(() => { consolre.log("Node JS") })();
+
+Authentication & Authorization 
+- Token based Auth: JWT or OAuth 
+
+intall: jsonwebtoken  bcryptjs --save 
